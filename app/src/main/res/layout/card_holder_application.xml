@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:padding="8dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:fontFamily="@font/bungee"
+                android:id="@+id/company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+
+                android:text="Company"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_toRightOf="@id/company"
+                android:layout_marginTop="19dp"
+                android:id="@+id/response"
+                android:text=""
+                android:gravity="right"
+                android:paddingRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                 />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-20dp">
+
+            <TextView
+                android:visibility="gone"
+                android:fontFamily="@font/bungee"
+                android:id="@+id/student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="2dp"
+                android:text="Student"
+
+                android:textSize="22sp"
+                 />
+
+            <TextView
+                android:id="@+id/job"
+                android:layout_marginStart="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"
+                android:text="job"
+                android:textSize="15sp"
+                 />
+        </LinearLayout>
+
+
+
+        <!-- <TextView
+
+             android:id="@+id/job"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="5dp"
+             android:text="job"
+             android:textStyle="italic"
+             android:textSize="18sp" />-->
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/viewapplicationdetails"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#55acf7"
+            android:elevation="30dp"
+            android:text="View details"
+            android:textColor="#fff" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,3 @@
+include ':placementstaff'
+include ':app'
+rootProject.name = "Placement2"

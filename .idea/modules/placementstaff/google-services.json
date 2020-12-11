@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "724893215917",
+    "firebase_url": "https://placementapp-66e86.firebaseio.com",
+    "project_id": "placementapp-66e86",
+    "storage_bucket": "placementapp-66e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724893215917:android:1a85dba516b66aea866a24",
+        "android_client_info": {
+          "package_name": "com.example.placement2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724893215917-pjl21uul7q531vvb6jki5i46ek7c33qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placement2",
+            "certificate_hash": "fb63a91bcbd42a25010c631297f07599703e2b11"
+          }
+        },
+        {
+          "client_id": "724893215917-souscnrhrc5ui50c6n8tbucv8msask8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placement2",
+            "certificate_hash": "6e8c0b4ed487a0701b15ac5c3a6d100fde9bde1c"
+          }
+        },
+        {
+          "client_id": "724893215917-q83lmfqoq03uvr305a7vqbmlj68u6v5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEmPB3ALXVLma6MgQ9C5EqDD3Jfz3vBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724893215917-q83lmfqoq03uvr305a7vqbmlj68u6v5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724893215917:android:a76d08f6fb4c481d866a24",
+        "android_client_info": {
+          "package_name": "com.example.placementstaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724893215917-78sps2gtnsb74eqosvkuc21akdo1h88a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placementstaff",
+            "certificate_hash": "6e8c0b4ed487a0701b15ac5c3a6d100fde9bde1c"
+          }
+        },
+        {
+          "client_id": "724893215917-ep3d8b3kublmp1jjobhrh95bhjbdttl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placementstaff",
+            "certificate_hash": "fb63a91bcbd42a25010c631297f07599703e2b11"
+          }
+        },
+        {
+          "client_id": "724893215917-q83lmfqoq03uvr305a7vqbmlj68u6v5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEmPB3ALXVLma6MgQ9C5EqDD3Jfz3vBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724893215917-q83lmfqoq03uvr305a7vqbmlj68u6v5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+
+        android:title="Computer Engineering" />
+
+
+
+    <item
+        android:id="@+id/nav_placement"
+
+        android:title="Information Technology" />
+
+    <item
+        android:id="@+id/nav_application"
+
+        android:title="Elec. and Telecommunication" />
+
+    <item
+        android:id="@+id/nav_students"
+
+        android:title="Electronics Engineerng" />
+
+    <item
+        android:id="@+id/biomed"
+        android:title="Biomedical Enginneering"
+        />
+
+
+
+</menu>
